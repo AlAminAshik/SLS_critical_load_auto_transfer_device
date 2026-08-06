@@ -15,7 +15,7 @@
 118	243	1786023719780481669	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync/sync.c.o	7e6d7f148f9466b7
 117	246	1786023719779530587	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o	5952541868108636
 118	254	1786023719780197794	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/hardware_claim/claim.c.o	75914f82954d8dee
-10	158	1786028817935577651	CMakeFiles/16x2-I2C-LCD-rp2040.dir/main.c.o	ca7b01dac74d2c5e
+9	67	1786028850198466111	CMakeFiles/16x2-I2C-LCD-rp2040.dir/main.c.o	ca7b01dac74d2c5e
 117	261	1786023719778882171	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o	f50e7d1bef94383b
 117	292	1786023719778758505	CMakeFiles/16x2-I2C-LCD-rp2040.dir/lcd_i2c.c.o	1afdbbc61cd5fac
 227	294	1786023719889077308	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/lock_core.c.o	ea48cd75a139d2f
@@ -98,16 +98,6 @@
 969	1142	1786023720630833431	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/tusb.c.o	63b1ad5562f25544
 582	1145	1786023720244745307	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_printf/printf.c.o	6ac077eec078c5b1
 981	1152	1786023720643547538	CMakeFiles/16x2-I2C-LCD-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o	f93e28cd06bf0255
-158	248	1786028818172769547	16x2-I2C-LCD-rp2040.elf	4453773fd5576730
-158	248	1786028818172769547	16x2-I2C-LCD-rp2040.dis	4453773fd5576730
-158	248	1786028818172769547	16x2-I2C-LCD-rp2040.hex	4453773fd5576730
-158	248	1786028818172769547	16x2-I2C-LCD-rp2040.bin	4453773fd5576730
-158	248	1786028818172769547	16x2-I2C-LCD-rp2040.uf2	4453773fd5576730
-158	248	1786028818172769547	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/16x2-I2C-LCD-rp2040/build/16x2-I2C-LCD-rp2040.dis	4453773fd5576730
-158	248	1786028818172769547	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/16x2-I2C-LCD-rp2040/build/16x2-I2C-LCD-rp2040.hex	4453773fd5576730
-158	248	1786028818172769547	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/16x2-I2C-LCD-rp2040/build/16x2-I2C-LCD-rp2040.bin	4453773fd5576730
-158	248	1786028818172769547	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/16x2-I2C-LCD-rp2040/build/16x2-I2C-LCD-rp2040.uf2	4453773fd5576730
-9	67	1786028850198466111	CMakeFiles/16x2-I2C-LCD-rp2040.dir/main.c.o	ca7b01dac74d2c5e
 67	148	1786028850336215113	16x2-I2C-LCD-rp2040.elf	4453773fd5576730
 67	148	1786028850336215113	16x2-I2C-LCD-rp2040.dis	4453773fd5576730
 67	148	1786028850336215113	16x2-I2C-LCD-rp2040.hex	4453773fd5576730
