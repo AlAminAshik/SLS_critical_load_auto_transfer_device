@@ -79,8 +79,16 @@ void lcd_print(const char *str) {
     }
 }
 
-void lcd_print_num(float num) {
+void lcd_print_num(float num, int decimal_places) {
     char buffer[16];
-    snprintf(buffer, sizeof(buffer), "%.2f", num);
+    snprintf(buffer, sizeof(buffer), "%.*f", decimal_places, num);
     lcd_print(buffer);
+}
+
+void lcd_print_num_padded(float value, uint8_t decimals, uint8_t width) {
+    char fmt[8];
+    char buf[16];
+    snprintf(fmt, sizeof(fmt), "%%%u.%uf", width, decimals);
+    snprintf(buf, sizeof(buf), fmt, value);
+    lcd_print(buf);
 }

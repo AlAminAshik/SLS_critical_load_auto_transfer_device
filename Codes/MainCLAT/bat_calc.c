@@ -2,28 +2,6 @@
 #include <stdint.h>
 #include "pico/stdlib.h"
 
-// LiFePO4 48V pack: voltage -> SOC% lookup table (rest/no-load values)
-// Sorted descending by voltage for interpolation logic below.
-typedef struct {
-    float voltage;
-    float soc;
-} soc_point_t;
-
-static const soc_point_t soc_table[] = {
-    {58.4f, 100.0f},  // charging voltage (transient, not true rest SOC)
-    {54.4f, 100.0f},  // rest voltage at full charge
-    {53.6f, 90.0f},
-    {53.1f, 80.0f},
-    {52.8f, 70.0f},
-    {52.3f, 60.0f},
-    {52.2f, 50.0f},
-    {52.0f, 40.0f},
-    {51.5f, 30.0f},
-    {51.2f, 20.0f},
-    {48.0f, 10.0f},
-    {40.0f, 0.0f},
-};
-
 #define SOC_TABLE_SIZE (sizeof(soc_table) / sizeof(soc_table[0]))
 
 float voltage_to_soc(float voltage) {
