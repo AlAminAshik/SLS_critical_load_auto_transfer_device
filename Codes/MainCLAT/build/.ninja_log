@@ -13,13 +13,13 @@
 105	220	1786032620250286173	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2040/pico_platform/platform.c.o	f7e760b446257662
 106	221	1786032620251411711	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o	3cdb518768467839
 105	237	1786032620251072129	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync/sync.c.o	884cf16a4dc8706
-11	142	1786036526648373177	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
+16	195	1786115209464184121	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
 105	248	1786032620250919129	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/hardware_claim/claim.c.o	aac93f04c8246481
 104	250	1786032620250057507	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o	1cda5e30c176e88b
 105	292	1786032620250543130	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o	4bd22351bab74820
 215	294	1786032620361063206	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/lock_core.c.o	231b44b3ab18ed48
 221	302	1786032620366750857	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/critical_section.c.o	cc6407f7beca4ca9
-12	156	1786036526649080218	CMakeFiles/mainCLAT.dir/lcd_i2c.c.o	fbbdea33f376e324
+13	152	1786037467753139646	CMakeFiles/mainCLAT.dir/lcd_i2c.c.o	fbbdea33f376e324
 241	331	1786032620387010594	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_time/timeout_helper.c.o	93d9d3a9828908b6
 203	365	1786032620348713406	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/sem.c.o	cbd985e1ba2f0a81
 292	379	1786032620437749040	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/fixed_bitset.c.o	ce11ff6450d26ead
@@ -98,25 +98,23 @@
 1012	1164	1786032621157968146	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/tusb.c.o	2c4a6b7658c71f08
 1015	1180	1786032621160110431	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o	320a80d5d5d8d466
 1049	1181	1786032621194183588	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o	e8718507c5ce51ea
-156	263	1786036526899472528	mainCLAT.elf	6b633b6cb773eab3
-156	263	1786036526899472528	mainCLAT.dis	6b633b6cb773eab3
-156	263	1786036526899472528	mainCLAT.hex	6b633b6cb773eab3
-156	263	1786036526899472528	mainCLAT.bin	6b633b6cb773eab3
-156	263	1786036526899472528	mainCLAT.uf2	6b633b6cb773eab3
-156	263	1786036526899472528	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
-156	263	1786036526899472528	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
-156	263	1786036526899472528	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
-156	263	1786036526899472528	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
-12	58	1786035457259455829	CMakeFiles/mainCLAT.dir/bat_calc.c.o	3f29062bbbe8c70e
-13	138	1786037467752576859	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
-14	138	1786037467753386644	CMakeFiles/mainCLAT.dir/bat_calc.c.o	3f29062bbbe8c70e
-13	152	1786037467753139646	CMakeFiles/mainCLAT.dir/lcd_i2c.c.o	fbbdea33f376e324
-152	258	1786037467997476316	mainCLAT.elf	6b633b6cb773eab3
-152	258	1786037467997476316	mainCLAT.dis	6b633b6cb773eab3
-152	258	1786037467997476316	mainCLAT.hex	6b633b6cb773eab3
-152	258	1786037467997476316	mainCLAT.bin	6b633b6cb773eab3
-152	258	1786037467997476316	mainCLAT.uf2	6b633b6cb773eab3
-152	258	1786037467997476316	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
-152	258	1786037467997476316	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
-152	258	1786037467997476316	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
-152	258	1786037467997476316	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
+195	373	1786115209820420640	mainCLAT.elf	6b633b6cb773eab3
+195	373	1786115209820420640	mainCLAT.dis	6b633b6cb773eab3
+195	373	1786115209820420640	mainCLAT.hex	6b633b6cb773eab3
+195	373	1786115209820420640	mainCLAT.bin	6b633b6cb773eab3
+195	373	1786115209820420640	mainCLAT.uf2	6b633b6cb773eab3
+195	373	1786115209820420640	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
+195	373	1786115209820420640	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
+195	373	1786115209820420640	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
+195	373	1786115209820420640	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
+17	195	1786115209464799165	CMakeFiles/mainCLAT.dir/bat_calc.c.o	3f29062bbbe8c70e
+11	151	1786116006017035493	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
+151	239	1786116006245328259	mainCLAT.elf	6b633b6cb773eab3
+151	239	1786116006245328259	mainCLAT.dis	6b633b6cb773eab3
+151	239	1786116006245328259	mainCLAT.hex	6b633b6cb773eab3
+151	239	1786116006245328259	mainCLAT.bin	6b633b6cb773eab3
+151	239	1786116006245328259	mainCLAT.uf2	6b633b6cb773eab3
+151	239	1786116006245328259	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
+151	239	1786116006245328259	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
+151	239	1786116006245328259	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
+151	239	1786116006245328259	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
