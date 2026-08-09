@@ -25,8 +25,8 @@ static const soc_point_t soc_table[] = {
     {40.0f, 0.0f},
 };
 
-#define RELAY_OFF_THRESHOLD 80.0f   // 80% SOC — turn relay OFF at or below this
-#define RELAY_ON_THRESHOLD  50.0f   // 50% SOC — only turn relay back ON above this
+#define RELAY_OFF_THRESHOLD 52.8f   // 70% SOC — turn relay OFF at or below this 52.8V
+#define RELAY_ON_THRESHOLD  51.6f   // 34% SOC — only turn relay back ON above this 51.6V
 
 
 float voltage_to_soc(float voltage);

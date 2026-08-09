@@ -24,7 +24,7 @@ float voltage_to_soc(float voltage) {
 
             // Linear interpolation between the two bracketing points
             float ratio = (voltage - v_low) / (v_high - v_low);
-            return soc_low + ratio * (soc_high - soc_low);
+            return soc_low + ratio * (soc_high - soc_low); //equation of line
         }
     }
 

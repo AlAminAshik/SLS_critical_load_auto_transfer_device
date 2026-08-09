@@ -5,6 +5,7 @@
 #include "lcd_i2c.h"
 #include "bat_calc.h"
 #include "pico/time.h"
+#include "hardware/watchdog.h"
 
 int PAGE_SWITCH_INTERVAL_MS = 5000;   // 5 seconds per page
 static uint8_t current_page = 0;
@@ -24,6 +25,7 @@ static absolute_time_t last_page_switch;
 #define GRID_IN_PIN 15
 
 float soc = 0.0f;
+float resistor_Ratio = 30.5f;
 
 static bool relayState = false;  // initially OFF
 static bool buzzerState = false; // initially OFF
@@ -65,13 +67,13 @@ static void display_page2(bool grid_ok) {
     lcd_print(grid_ok ? "OFF" : "ON ");   // GRID_IN_PIN low = mains ON, per your spec
 
     lcd_set_cursor(0, 1);
-    lcd_print("OFF: ");
-    lcd_print_num(RELAY_ON_THRESHOLD, 0);
-    lcd_print("%");
+    lcd_print("OFF:");
+    lcd_print_num(RELAY_ON_THRESHOLD, 1);
+    // lcd_print("V");
     lcd_set_cursor(9, 1);
-    lcd_print("ON: ");
-    lcd_print_num(RELAY_OFF_THRESHOLD, 0);
-    lcd_print("%");
+    lcd_print("ON:");
+    lcd_print_num(RELAY_OFF_THRESHOLD, 1);
+    // lcd_print("V");
 
     PAGE_SWITCH_INTERVAL_MS = 2000;  // 2 seconds for page 2
 }
@@ -82,12 +84,12 @@ void soundBuzzer(int duration_ms) {
     gpio_put(BUZ_PIN, 0); // turn buzzer OFF
 }
 
-void update_relay(float soc) {
-    if (!relayState && soc <= RELAY_ON_THRESHOLD) {
+void update_relay(float value) {
+    if (!relayState && value <= RELAY_ON_THRESHOLD) {
         relayState = true;
         soundBuzzer(300); // sound buzzer for 0.3 seconds when relay turns ON
         gpio_put(RELAY_PIN, 1); // turn relay ON
-    } else if (relayState && soc >= RELAY_OFF_THRESHOLD) {
+    } else if (relayState && value >= RELAY_OFF_THRESHOLD) {
         relayState = false;
         soundBuzzer(300); // sound buzzer for 0.3 seconds when relay turns OFF
         gpio_put(RELAY_PIN, 0); // turn relay OFF
@@ -97,6 +99,7 @@ void update_relay(float soc) {
 
 int main() {
     stdio_init_all();
+    watchdog_enable(4000, 1); // Enable watchdog with a 4-second timeout and pause on debug
 
     // Initialize I2C display
     i2c_init(I2C_PORT, 100 * 1000); // 100kHz — safer for these backpacks than 400kHz
@@ -131,7 +134,7 @@ int main() {
 
     while (true) {
         uint16_t raw = adc_read();              // raw value: 0–4095
-        float voltage = raw * conversion_factor * 19.0f; // Convert to actual voltage at the battery terminals  
+        float voltage = raw * conversion_factor * resistor_Ratio; // Convert to actual voltage at the battery terminals  
         float filtered_voltage = filter_voltage(voltage); // Apply moving average filter
         soc = voltage_to_soc(filtered_voltage);     // Convert voltage to SOC percentage
 
@@ -146,7 +149,7 @@ int main() {
                 gpio_put(RELAY_PIN, 0);
             }
         } else {
-            update_relay(soc);
+            update_relay(filtered_voltage);  // only update relay state based on voltage if grid is OK
         }
 
         if (absolute_time_diff_us(last_page_switch, get_absolute_time()) >= PAGE_SWITCH_INTERVAL_MS * 1000) {
@@ -162,5 +165,6 @@ int main() {
         }
         
         sleep_ms(100);
+        watchdog_update();
     }
 }
