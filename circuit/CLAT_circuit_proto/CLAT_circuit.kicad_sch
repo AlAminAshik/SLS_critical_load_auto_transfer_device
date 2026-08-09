@@ -1327,6 +1327,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4007"
 			(pin_numbers
 				(hide yes)
@@ -1663,6 +1880,160 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SM6T6V8A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM6T6V8A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM6T6V8A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM6T6V8A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4735,6 +5106,17 @@
 		)
 		(uuid "0cb2c39a-7a58-4274-b36d-316e98c98e06")
 	)
+	(text "make sure to add a\n471k MOV & 275V 0.1uF\nsuppression cap across\nmagnetic contactor, otherwise EMI\nwhile contactor discharging\nwill freeze/crash/damage\nRP2040 and I2C lines."
+		(exclude_from_sim no)
+		(at 42.926 184.658 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "27b6389c-8ebd-44ee-a11f-027070c5ea4a")
+	)
 	(text "Display\nwith I2C driver"
 		(exclude_from_sim no)
 		(at 168.148 36.068 0)
@@ -4755,7 +5137,7 @@
 		)
 		(uuid "6ac49860-2f70-4877-a3e0-854820fe1ccc")
 	)
-	(text "~865R\nRatio: ~19"
+	(text "~865R\nRatio: ~30.5"
 		(exclude_from_sim no)
 		(at 221.488 152.4 0)
 		(effects
@@ -4764,6 +5146,17 @@
 			)
 		)
 		(uuid "94e36e65-5a4e-4dd1-9e41-790db909b65a")
+	)
+	(text "output of LM258\nmay never reach 3.3V\nmax can be 2V since it\nis not rail-rail op amp"
+		(exclude_from_sim no)
+		(at 266.954 150.876 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "98a923e3-0309-423f-a0a3-342b10f68b5a")
 	)
 	(junction
 		(at 88.9 143.51)
@@ -4776,12 +5169,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34d237dd-0421-4bc9-9f24-b610555eba7f")
-	)
-	(junction
-		(at 210.82 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c3dfef9-dc40-4466-943b-a6966a31f5b1")
 	)
 	(junction
 		(at 30.48 173.99)
@@ -4808,16 +5195,46 @@
 		(uuid "7de80d4e-9488-41a2-b0af-69c1968c5ec5")
 	)
 	(junction
+		(at 210.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadfa40d-00f2-4aca-a549-3d32176f5e6f")
+	)
+	(junction
 		(at 88.9 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b614c744-c0cf-47dc-b955-bb3b80b96bd2")
 	)
 	(junction
+		(at 29.21 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05c8a38-b3e6-42df-880f-1029a1115ba9")
+	)
+	(junction
 		(at 34.29 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c613bea2-e198-4168-8dc4-285b0c05af0f")
+	)
+	(junction
+		(at 36.83 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e2bea8-b325-4256-94fb-674f216d0da8")
+	)
+	(junction
+		(at 34.29 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef9de7f-f2ba-4b4c-8a7e-0d479bf01615")
+	)
+	(junction
+		(at 30.48 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea0d25c-b739-42cb-a51c-ecb4130e1533")
 	)
 	(junction
 		(at 58.42 40.64)
@@ -4854,16 +5271,6 @@
 			(type default)
 		)
 		(uuid "04c988d2-530b-408f-8f6c-1b64e2d96595")
-	)
-	(wire
-		(pts
-			(xy 210.82 123.19) (xy 213.36 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d46cda-35da-43a5-b286-21bbb1729482")
 	)
 	(wire
 		(pts
@@ -4987,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 116.84) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2097dfb0-67f5-4d17-a911-f6efdc7876e8")
+	)
+	(wire
+		(pts
 			(xy 140.97 29.21) (xy 140.97 24.13)
 		)
 		(stroke
@@ -4997,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 201.93 127)
+			(xy 201.93 127) (xy 201.93 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5097,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 160.02) (xy 30.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325542de-c773-42bf-be4d-ff2828548a79")
+	)
+	(wire
+		(pts
 			(xy 58.42 40.64) (xy 63.5 40.64)
 		)
 		(stroke
@@ -5127,6 +5554,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 116.84) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3800357f-8548-458a-8053-6797f0ca356e")
+	)
+	(wire
+		(pts
+			(xy 29.21 111.76) (xy 29.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a312da8-e00c-45b2-945f-d7680f4d48c3")
+	)
+	(wire
+		(pts
 			(xy 240.03 123.19) (xy 224.79 123.19)
 		)
 		(stroke
@@ -5134,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "3b838048-2709-4804-bcef-6ffdb0792832")
+	)
+	(wire
+		(pts
+			(xy 30.48 160.02) (xy 30.48 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3411d7-2068-42dc-8d84-b0cdabffe042")
 	)
 	(wire
 		(pts
@@ -5167,16 +5624,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 203.2 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b536b0a-16ae-4286-9b83-e785e3fd142c")
-	)
-	(wire
-		(pts
 			(xy 236.22 156.21) (xy 236.22 158.75)
 		)
 		(stroke
@@ -5207,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 118.11) (xy 30.48 118.11)
+			(xy 26.67 118.11) (xy 29.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5287,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 157.48) (xy 30.48 173.99)
+			(xy 30.48 157.48) (xy 30.48 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5317,13 +5764,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 137.16) (xy 203.2 157.48)
+			(xy 29.21 118.11) (xy 30.48 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73c922ae-c083-4c43-ba06-8bcc084f2081")
+		(uuid "73bb1469-a065-45a4-90b0-b8c2cdea1006")
+	)
+	(wire
+		(pts
+			(xy 36.83 111.76) (xy 36.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f47caf-430c-40b4-bca5-6bf87adad571")
 	)
 	(wire
 		(pts
@@ -5377,16 +5834,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 123.19) (xy 213.36 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d1eae2b-4f95-4aeb-ae82-5814841e2565")
-	)
-	(wire
-		(pts
 			(xy 133.35 36.83) (xy 144.78 36.83)
 		)
 		(stroke
@@ -5407,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 158.75) (xy 34.29 171.45)
+			(xy 34.29 158.75) (xy 34.29 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5617,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 123.19) (xy 203.2 123.19)
+			(xy 201.93 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5657,7 +6104,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 157.48) (xy 210.82 157.48)
+			(xy 201.93 157.48) (xy 210.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5734,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "d6efe90b-b9a3-40df-840d-e690029c2451")
+	)
+	(wire
+		(pts
+			(xy 201.93 123.19) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5c7f00-2ee3-4d84-bcda-d9c5cf1a0aeb")
 	)
 	(wire
 		(pts
@@ -5827,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 167.64) (xy 34.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c4af28-df3e-47ef-87de-9e0e5265abed")
+	)
+	(wire
+		(pts
 			(xy 173.99 71.12) (xy 173.99 76.2)
 		)
 		(stroke
@@ -5844,6 +6311,16 @@
 			(type default)
 		)
 		(uuid "fc6cc5f6-c9e9-4fc1-9025-7cc55e50880e")
+	)
+	(wire
+		(pts
+			(xy 34.29 167.64) (xy 34.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec181d6-eca0-4bea-bfe9-6e4fd70c8707")
 	)
 	(wire
 		(pts
@@ -5906,7 +6383,7 @@
 		(uuid "15ecb97b-5b8e-43ff-b0c4-6b8c60301369")
 	)
 	(label "VBAT"
-		(at 195.58 123.19 180)
+		(at 196.85 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6259,6 +6736,88 @@
 			(project "CLAT_circuit"
 				(path "/91c82381-f8ec-4cdf-a20a-946af9b29e54"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bde6760-6af7-4fcd-b057-76f1da83e596")
+		(property "Reference" "R7"
+			(at 215.9 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.9 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.582 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45de41d3-c713-4811-b761-03b164cbad43")
+		)
+		(pin "2"
+			(uuid "2447cf50-9827-4573-8f91-f064413f7f1e")
+		)
+		(instances
+			(project "CLAT_circuit"
+				(path "/91c82381-f8ec-4cdf-a20a-946af9b29e54"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7826,6 +8385,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Varistor")
+		(at 26.67 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bab04eb-4371-4046-9bb1-05211a276c71")
+		(property "Reference" "RV2"
+			(at 22.86 165.2935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "471k"
+			(at 22.86 162.7535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.892 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 26.67 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a03ca6c-b127-4d41-b7fc-1f2c58da7704")
+		)
+		(pin "2"
+			(uuid "575ffbee-1b17-49cf-8abe-e15549f1f271")
+		)
+		(instances
+			(project "CLAT_circuit"
+				(path "/91c82381-f8ec-4cdf-a20a-946af9b29e54"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 245.11 24.13 0)
 		(unit 1)
@@ -7976,6 +8671,86 @@
 			(project "CLAT_circuit"
 				(path "/91c82381-f8ec-4cdf-a20a-946af9b29e54"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM6T6V8A")
+		(at 33.02 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84bc6024-c847-4d7c-91a0-5ee1493a9721")
+		(property "Reference" "D4"
+			(at 33.02 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM6T6V8A"
+			(at 33.02 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 33.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+			(at 31.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+			(at 33.02 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb371d1b-e7e2-48a7-8640-54c4ff41a481")
+		)
+		(pin "1"
+			(uuid "4bdf550a-cbb8-4b44-8394-a1613a91c69b")
+		)
+		(instances
+			(project "CLAT_circuit"
+				(path "/91c82381-f8ec-4cdf-a20a-946af9b29e54"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9390,7 +10165,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 207.01 123.19 180)
+		(at 207.01 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9398,10 +10173,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f86b7e01-c1b8-4e75-9c41-c4c68b058100")
 		(property "Reference" "D2"
-			(at 207.3275 116.84 0)
+			(at 207.518 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9411,7 +10185,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 207.3275 119.38 0)
+			(at 207.518 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9421,7 +10195,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 207.01 118.745 0)
+			(at 207.01 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +10206,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 207.01 123.19 0)
+			(at 207.01 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9443,7 +10217,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 207.01 123.19 0)
+			(at 207.01 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
