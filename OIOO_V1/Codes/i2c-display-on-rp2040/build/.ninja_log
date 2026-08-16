@@ -1,0 +1,119 @@
+# ninja log v7
+10	42	1786020781303238022	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o	4e1b98b1c1e01f17
+43	74	1786020781366868031	pico-sdk/src/rp2040/boot_stage2/bs2_default.elf	ab9dacc594adc26e
+43	74	1786020781366868031	pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	ab9dacc594adc26e
+43	74	1786020781366868031	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	ab9dacc594adc26e
+74	92	1786020781384626402	pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	abefd9b3c674fc78
+74	92	1786020781384626402	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	abefd9b3c674fc78
+92	167	1786020781456959887	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	ff18bb376939df86
+92	167	1786020781456959887	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	ff18bb376939df86
+169	208	1786020781461604689	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/custom_panic_function.S.o	2796d3d7011b05d5
+208	250	1786020781500622771	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o	3eb385cb8f88bc4f
+168	251	1786020781461151938	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_common/common.c.o	e5bdaa213d0a8214
+168	282	1786020781461042146	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2040/pico_platform/platform.c.o	e6878bbd0c66738
+170	283	1786020781462711024	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o	6451ef2ca31c21f8
+170	289	1786020781462552274	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync/sync.c.o	9d17c32c37fd918a
+168	298	1786020781460812145	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o	f53c48a4da204d6c
+167	305	1786020781460472561	CMakeFiles/i2c-display-on-rp2040.dir/main.c.o	f2d0b83cfc610f36
+168	305	1786020781461261063	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o	c5a459dc97249850
+169	308	1786020781461932731	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/hardware_claim/claim.c.o	7727f1b85472f26a
+251	332	1786020781544037154	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/lock_core.c.o	c84bf4548569352b
+168	347	1786020781460685478	CMakeFiles/i2c-display-on-rp2040.dir/ssd1306.c.o	d2cc7ed876476d3a
+283	356	1786020781575957471	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/critical_section.c.o	1101b2405c21752
+250	367	1786020781543295902	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/sem.c.o	42f158ee405b9716
+299	378	1786020781591634837	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_time/timeout_helper.c.o	334440c4a8c9f5e5
+308	382	1786020781601003899	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/fixed_bitset.c.o	6815910e480dfda4
+170	384	1786020781462878983	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_irq/irq.c.o	e6d09a9ea90f6db
+168	438	1786020781460927020	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o	f072851c084870c
+282	440	1786020781575403637	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/mutex.c.o	bb25989abce38949
+382	448	1786020781674817221	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o	262604c705c7cf11
+305	450	1786020781598519477	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/datetime.c.o	99886c1f866b4b0d
+378	459	1786020781671377505	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_pll/pll.c.o	51bfc882214be741
+384	483	1786020781677027934	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o	da5af03206689668
+450	495	1786020781743493365	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o	bd3ad1cc9e15087d
+438	498	1786020781731563382	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o	b38430c141f60f16
+449	500	1786020781741629903	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o	714e95c7101298dd
+347	516	1786020781640151356	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/queue.c.o	84da9f78298301dc
+495	522	1786020781788109084	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_divider/divider.S.o	ed5c20dc36b008b6
+440	527	1786020781733482594	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o	eed66b5ad68c5cf4
+305	533	1786020781597819267	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_timer/timer.c.o	ed3eb92809398fe0
+459	534	1786020781752267634	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_flash/flash.c.o	bcd41bacddf2cf12
+483	539	1786020781776088226	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o	c4e9d2dfc47bb8b5
+356	542	1786020781649174167	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_uart/uart.c.o	def3177661ab0488
+533	565	1786020781826067581	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o	3b437187f53652fb
+534	567	1786020781827533625	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o	9a8a8145f751f038
+498	571	1786020781790881382	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o	abeee28c18ef1c61
+539	579	1786020781832143052	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o	97d48195699ecc06
+522	584	1786020781815482142	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o	e619f24776f4e550
+571	592	1786020781864484912	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o	a641ecc71da0931c
+501	592	1786020781793614137	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o	ba05b9e268369883
+516	595	1786020781809396546	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o	d9246f43698daec5
+567	600	1786020781860074819	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o	926a705155a33ef7
+579	613	1786020781872537720	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o	d94a4f8de5b0981a
+592	615	1786020781885277372	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o	62179633b5dde21c
+542	630	1786020781834775974	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o	a712c032f1e6898
+600	631	1786020781893253972	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o	68e241d61dd8a365
+528	632	1786020781820590486	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o	cac2429117568c49
+584	665	1786020781877212188	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o	c0ab5db9fbbb32ad
+632	675	1786020781924774247	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o	ad86f67738ca6221
+332	690	1786020781624659032	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/pheap.c.o	192d7bc8e953b32b
+595	698	1786020781888266128	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o	c7243de525025587
+630	705	1786020781922831118	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o	93f461dbf9bedc39
+675	741	1786020781967832504	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_clib_interface/cxa_guard.c.o	1414749b3646b17a
+615	773	1786020781907925336	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o	688e9f2ea9968b2c
+289	791	1786020781582448818	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_time/time.c.o	3a5ad9d771f0fd18
+666	807	1786020781958722693	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o	72f5707efd773d0f
+698	814	1786020781990760677	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o	23c1a846735d3c8c
+367	822	1786020781660534107	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o	a572db8d02aaabb0
+741	843	1786020782034371269	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o	c1f41169468b58ab
+705	865	1786020781998266193	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o	467d561c9777027e
+773	866	1786020782066268503	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o	1bd32b6fbbd0e152
+807	870	1786020782100390033	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o	520d1ce8b231b25d
+613	875	1786020781906460875	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o	612ec810cb80f922
+690	887	1786020781982856911	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o	24673b642e0e66c0
+791	933	1786020782083821956	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_flash/flash.c.o	e35b5ae1906900e1
+814	946	1786020782107535340	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c.o	2fe1a3b6f933d5da
+870	955	1786020782162667998	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o	f6d926e6ed93f607
+887	956	1786020782180136909	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o	1ed4f3834c742ff1
+933	991	1786020782226118631	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o	a666cb68130f3dfa
+946	1011	1786020782239272409	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o	7b244710248c6581
+955	1013	1786020782248077969	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o	3d0d8749569ffe65
+956	1015	1786020782249013012	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o	ecfaf6de1ebb677f
+866	1017	1786020782158942281	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o	84607770c36fcfaa
+843	1019	1786020782135806483	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o	3594da7ef82bcbeb
+991	1060	1786020782284222295	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o	b1df730fd5d972e8
+1013	1062	1786020782306000424	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o	85b552504fc00ded
+1011	1064	1786020782304000753	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o	a53134d3dae7e0ab
+1015	1080	1786020782308081637	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o	35176d11f999509f
+1017	1084	1786020782309987224	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o	bab304e58b7dad80
+875	1096	1786020782167950800	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o	2a97b626fec81b01
+823	1097	1786020782115604524	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o	c3861c194cdd0635
+1084	1110	1786020782376777948	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o	28bf156e0aec712a
+592	1111	1786020781884853829	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_math.c.o	c88b4d0645e3d035
+1062	1160	1786020782354847194	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o	d89d6e3860db9359
+1064	1160	1786020782357310241	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_thread_local/thread_local.c.o	40dc87612b81aaf6
+565	1179	1786020781858396940	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_math.c.o	f6c15ce2235dde42
+1019	1198	1786020782312166020	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/tusb.c.o	1369bb2df6bc46a6
+631	1214	1786020781923787203	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_printf/printf.c.o	9625564233222e13
+1080	1219	1786020782372946607	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o	d9129a97714f094d
+865	1219	1786020782158239280	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/device/usbd.c.o	9575e1f5e7fb871c
+1060	1257	1786020782352772231	CMakeFiles/i2c-display-on-rp2040.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o	76b7b46e4b6711fc
+1257	1349	1786020782641038628	i2c-display-on-rp2040.elf	ca0efadc11eb1b80
+1257	1349	1786020782641038628	i2c-display-on-rp2040.dis	ca0efadc11eb1b80
+1257	1349	1786020782641038628	i2c-display-on-rp2040.hex	ca0efadc11eb1b80
+1257	1349	1786020782641038628	i2c-display-on-rp2040.bin	ca0efadc11eb1b80
+1257	1349	1786020782641038628	i2c-display-on-rp2040.uf2	ca0efadc11eb1b80
+1257	1349	1786020782641038628	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.dis	ca0efadc11eb1b80
+1257	1349	1786020782641038628	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.hex	ca0efadc11eb1b80
+1257	1349	1786020782641038628	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.bin	ca0efadc11eb1b80
+1257	1349	1786020782641038628	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.uf2	ca0efadc11eb1b80
+9	104	1786020840423075506	CMakeFiles/i2c-display-on-rp2040.dir/main.c.o	f2d0b83cfc610f36
+104	191	1786020840604744889	i2c-display-on-rp2040.elf	ca0efadc11eb1b80
+104	191	1786020840604744889	i2c-display-on-rp2040.dis	ca0efadc11eb1b80
+104	191	1786020840604744889	i2c-display-on-rp2040.hex	ca0efadc11eb1b80
+104	191	1786020840604744889	i2c-display-on-rp2040.bin	ca0efadc11eb1b80
+104	191	1786020840604744889	i2c-display-on-rp2040.uf2	ca0efadc11eb1b80
+104	191	1786020840604744889	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.dis	ca0efadc11eb1b80
+104	191	1786020840604744889	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.hex	ca0efadc11eb1b80
+104	191	1786020840604744889	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.bin	ca0efadc11eb1b80
+104	191	1786020840604744889	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/i2c-display-on-rp2040/build/i2c-display-on-rp2040.uf2	ca0efadc11eb1b80

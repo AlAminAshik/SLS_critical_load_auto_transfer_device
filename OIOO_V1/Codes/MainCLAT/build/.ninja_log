@@ -1,0 +1,122 @@
+# ninja log v7
+10	152	1786607080531900443	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o	134abe63eb761e1e
+152	250	1786607080770527264	pico-sdk/src/rp2040/boot_stage2/bs2_default.elf	9934d036ad2a9d96
+152	250	1786607080770527264	pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	9934d036ad2a9d96
+152	250	1786607080770527264	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.dis	9934d036ad2a9d96
+250	283	1786607080804154468	pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	96527056a506fda3
+250	283	1786607080804154468	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin	96527056a506fda3
+283	370	1786607080884823718	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	2028e287584be836
+283	370	1786607080884823718	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	2028e287584be836
+376	507	1786607080897569398	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/custom_panic_function.S.o	85db40314bc5aaca
+372	559	1786607080893687766	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_common/common.c.o	30edf9e34a2269b
+559	619	1786607081080659124	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o	72412eca240a7beb
+372	599	1786607080893449768	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2040/pico_platform/platform.c.o	f7e760b446257662
+382	615	1786607080903818052	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o	3cdb518768467839
+378	620	1786607080899881670	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_sync/sync.c.o	884cf16a4dc8706
+13	213	1786610299967628147	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
+376	640	1786607080898113935	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/hardware_claim/claim.c.o	aac93f04c8246481
+371	625	1786607080892965897	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o	1cda5e30c176e88b
+374	652	1786607080895916079	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o	4bd22351bab74820
+616	781	1786607081137238460	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/lock_core.c.o	231b44b3ab18ed48
+620	799	1786607081142144417	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/critical_section.c.o	cc6407f7beca4ca9
+371	865	1786607080892479859	CMakeFiles/mainCLAT.dir/lcd_i2c.c.o	fbbdea33f376e324
+640	883	1786607081161310165	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_time/timeout_helper.c.o	93d9d3a9828908b6
+599	820	1786607081121132893	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/sem.c.o	cbd985e1ba2f0a81
+781	899	1786607081302394759	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/fixed_bitset.c.o	ce11ff6450d26ead
+619	1046	1786607081140556222	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_sync/mutex.c.o	3752386b585678a8
+695	1062	1786607081216191683	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/datetime.c.o	6ee4ab6156a70197
+883	1050	1786607081404693736	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_pll/pll.c.o	6cdfefa8fb064ec6
+899	1042	1786607081420668387	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o	4ac738c3004b0617
+507	959	1786607081028834620	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_irq/irq.c.o	4c45489fe879d1ac
+803	1077	1786607081324713938	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/queue.c.o	afa0a4e565bdb17a
+820	1065	1786607081341299126	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_uart/uart.c.o	c0b5b63896334ce3
+1028	1208	1786607081549164467	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o	f8d11909488d99a3
+372	1027	1786607080893209853	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o	476ab253476c344b
+1050	1200	1786607081571792518	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o	e3560943c3d39839
+652	1161	1786607081174034428	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_timer/timer.c.o	a6c577d094326115
+1077	1192	1786607081599074987	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_divider/divider.S.o	d52f2ce8be7832f0
+1047	1225	1786607081568587630	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o	847459b08fb846e7
+1042	1270	1786607081563382676	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o	8da33086a63d00cd
+959	1195	1786607081480312822	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o	9325e2ced01f263f
+799	1231	1786607081320640266	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_util/pheap.c.o	5951dd05f817a2b3
+1062	1243	1786607081583523790	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_flash/flash.c.o	2e6021c0b2dc0a5
+1065	1245	1786607081586890344	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o	1508074c2ef4113c
+1161	1331	1786607081683076916	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o	2832c67d609dcdde
+1225	1301	1786607081746287653	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o	748a7c7fa67f38c3
+1231	1295	1786607081752346308	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o	6bc1e0471b46d46b
+1243	1312	1786607081764952989	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o	5c67e8c7fe0df98e
+1201	1357	1786607081722174656	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o	de86a7f269ae6c3d
+1192	1546	1786607081713711105	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o	2a9ebe7d8faf7f52
+1195	1443	1786607081716470831	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o	1f618252d74e0ae2
+1295	1351	1786607081816361704	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o	d41d492fbab3af2d
+1301	1349	1786607081822885563	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o	98f8ad747bc2bc25
+865	1430	1786607081386390688	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o	52bc5da2975d330c
+1312	1378	1786607081833325055	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o	d48844f8c372c79c
+1245	1596	1786607081766465309	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o	2c81ff413595b4dd
+1378	1440	1786607081900063969	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o	4baca4e1e79e2f43
+1351	1411	1786607081872568210	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o	73f4c63084528f33
+1537	1610	1786607082058939449	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o	f8c8e5e3e2020a49
+1208	1689	1786607081729492342	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o	b339902879ab34a6
+1357	1537	1786607081878617782	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o	419acbd5ae25167e
+1440	1598	1786607081961766594	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o	7cd5f33637f04061
+1331	1567	1786607081852657677	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o	64259e07ccb1c341
+1567	1757	1786607082089133808	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_clib_interface/cxa_guard.c.o	ea711fc814b52a44
+1430	1976	1786607081951649641	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o	c1dbdfb520012ad4
+1610	1888	1786607082131408312	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o	acbc8bfc192f1bb5
+1546	2034	1786607082067756038	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o	5f62f5d5544aa3e0
+1598	1950	1786607082119705665	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o	9164c39e48fb6473
+1411	2063	1786607081933052054	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o	59ab17095caac17d
+625	1588	1786607081146293797	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/common/pico_time/time.c.o	52b9cf7137e019ba
+1758	1891	1786607082279161056	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o	50e503fca829e572
+1596	2118	1786607082117815140	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o	3fcfdef4eba6193d
+1689	2065	1786607082210673616	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_flash/flash.c.o	cf00980375559e45
+2064	2170	1786607082585185493	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o	d74b094836a47dcb
+1588	2191	1786607082109914792	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o	adc77ad90769ac42
+2118	2218	1786607082639361184	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o	4162b52aaafda5fc
+1888	2128	1786607082409552244	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c.o	e72dd49474eda12e
+2128	2307	1786607082649262014	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o	97346ce4fa5ebbda
+2034	2319	1786607082555732085	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o	abbb0d8b683d5c59
+2170	2303	1786607082691792474	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o	bf761e90f031d2d
+1950	2341	1786607082471423909	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o	4acfc26d6fd96cbb
+2191	2332	1786607082712789164	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o	c1f5bd02c7066de6
+1349	2361	1786607081870875183	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_float/float_math.c.o	7d7968a9ac271db
+2218	2364	1786607082739241182	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o	ff336a1dd51b88a4
+2307	2474	1786607082828549231	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o	c3fd07599ddd8392
+2319	2473	1786607082840631417	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o	a23cc6322008a46
+1891	2484	1786607082412843257	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o	a1ab31e56854a57
+2332	2487	1786607082853795301	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o	dba7b6f78e376197
+2303	2468	1786607082824604599	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o	340f3ab9b8781b40
+2341	2488	1786607082862837388	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o	708b8baf18eed7ba
+2065	2537	1786607082586987436	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o	2cf58e7eb866a39b
+2487	2536	1786607083008545900	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o	6441c564463c3fbb
+1270	2585	1786607081791735379	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_double/double_math.c.o	6fb536ac0ed0bb36
+1443	2701	1786607081965015690	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_printf/printf.c.o	118dacd506a74a6a
+2474	2615	1786607082995415557	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_adc/adc.c.o	32434cb6a838f188
+2468	2657	1786607082989997271	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o	acd069abbc43c65a
+2473	2653	1786607082994473607	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/pico_thread_local/thread_local.c.o	a7ccb4b0b86ce77b
+1977	2765	1786607082498224049	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/device/usbd.c.o	d2a85e83ccecedff
+2361	2777	1786607082883057586	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/tusb.c.o	2c4a6b7658c71f08
+2364	2826	1786607082885758645	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o	320a80d5d5d8d466
+2484	2773	1786607083005521427	CMakeFiles/mainCLAT.dir/Users/mdalaminashik/pico-zero/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o	e8718507c5ce51ea
+213	373	1786610300325946208	mainCLAT.elf	6b633b6cb773eab3
+213	373	1786610300325946208	mainCLAT.dis	6b633b6cb773eab3
+213	373	1786610300325946208	mainCLAT.hex	6b633b6cb773eab3
+213	373	1786610300325946208	mainCLAT.bin	6b633b6cb773eab3
+213	373	1786610300325946208	mainCLAT.uf2	6b633b6cb773eab3
+213	373	1786610300325946208	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
+213	373	1786610300325946208	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
+213	373	1786610300325946208	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
+213	373	1786610300325946208	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
+14	190	1786610299968213892	CMakeFiles/mainCLAT.dir/bat_calc.c.o	3f29062bbbe8c70e
+12	228	1786611025728942107	CMakeFiles/mainCLAT.dir/bat_calc.c.o	3f29062bbbe8c70e
+11	250	1786611025728031574	CMakeFiles/mainCLAT.dir/mainCLAT.c.o	71c78e3dbc680dc1
+12	264	1786611025728675985	CMakeFiles/mainCLAT.dir/lcd_i2c.c.o	fbbdea33f376e324
+264	420	1786611026135925825	mainCLAT.elf	6b633b6cb773eab3
+264	420	1786611026135925825	mainCLAT.dis	6b633b6cb773eab3
+264	420	1786611026135925825	mainCLAT.hex	6b633b6cb773eab3
+264	420	1786611026135925825	mainCLAT.bin	6b633b6cb773eab3
+264	420	1786611026135925825	mainCLAT.uf2	6b633b6cb773eab3
+264	420	1786611026135925825	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.dis	6b633b6cb773eab3
+264	420	1786611026135925825	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.hex	6b633b6cb773eab3
+264	420	1786611026135925825	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.bin	6b633b6cb773eab3
+264	420	1786611026135925825	/Users/mdalaminashik/My Drive/Skills and works/Supreme Lithium Solution/SLS_critical_load_auto_transfer_device/Codes/MainCLAT/build/mainCLAT.uf2	6b633b6cb773eab3
